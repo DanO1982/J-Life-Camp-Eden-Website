@@ -1,0 +1,313 @@
+body{
+  background-color: #EDEFDD;
+  margin:0;
+}
+
+hr{
+  padding: 10px;
+}
+
+h1{
+  background-color: #A0B0A0;
+  text-align: center;
+}
+
+@media (max-width:480px){
+  h2{
+    padding-top: 35px;
+    color: #205020;
+    background-color: #C8E0C0;
+    text-align:left;
+    font-size: 1.5em;
+    font-family:arial black;
+    font-weight: bold;
+  }
+}
+h2{
+  color: #205020;
+  background-color: #C8E0C0;
+  text-align:left;
+  font-size: 1.5em;
+  font-family:arial black;
+  font-weight: bold;
+}
+
+h3{
+  color: #505050;
+  font-family:arial;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: normal;
+}
+h4{
+  color: #B0B0B0;
+  font-size: 0.8em;
+  text-align: left;
+  font-family:sans-serif;
+}
+h5{
+  color: #c0a0a0;
+  font-size: 1.5em;
+  text-align: center;
+  font-family:comic sans ms;
+}
+h6{
+  color: #901010;
+  font-family:comic sans ms;
+  font-size: 0.9em;
+  text-align: center;
+  font-style: normal;
+}
+.linkLeft{
+  color: #205020;
+  font-size: 1.5em;
+  text-align: leftSide;
+  font-family:Arial Black;
+}
+.linkRight{
+  color: #205020;
+  font-size: 1.5em;
+  text-align: rightSide;
+  font-family:Arial Black;
+}
+
+.linkCenter{
+
+}
+
+
+p{
+  color: black;
+  font-family: comic sans ms;
+  justify-content: center;
+  text-align:justify;
+  font-size: 1.1em;
+  /*font-weight: bold;*/
+}
+q{
+  color: #505050;
+  font-size: 1em;
+  text-align: center;
+  font-family:monospace;
+}
+a{
+  font-family:sans-serif;
+}
+
+/*NavBar: */
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 5px;
+  background-color: #809080;  /*#A0B0A0;*/
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav a{
+  padding: 2px 10px 2px 10px;
+  color: #f2f2f2;
+  text-align: center;
+  float: left;
+  display:block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight:500;
+  border-style:outset;
+  border-color: #C0C0C0  ;
+  border-width: thin;
+  margin-left: 1px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  /*border-spacing: 5px;*/
+  border-style: outset;
+  color: #F8F030;
+  border-width: thin;
+  /*padding: 3px;*/
+}
+
+/* Add a color to the active/current link */
+.nav a:active {
+  border-style: dotted;
+  border-color: #30B030;
+  border-width: thin;
+}
+
+.hero {
+  background-image: url(EdenPoolGathering1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 1000px;
+ }
+
+ .heroImgs{
+   display: block;
+   margin-left: auto;
+   margin-right: 10px;
+   border-color: #d0d0d0;
+   border-style:solid;
+   border-width: thick;
+ }
+
+
+ .linkWrapper{
+   display: flex;
+   margin-right: 20px;
+ }
+
+ @media (max-width:480px){
+   .linkWrapper{
+     display: block;
+   }
+ }
+
+@media (max-width:480px){
+  .halves{
+    display:grid;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*text-align:center;*/
+    /*border: 1px solid #c0d0c0;
+    border-color: ;*/
+  }
+}
+
+
+.halves{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align:center;
+  /*border: 1px solid #c0d0c0;
+  border-color: ;*/
+}
+
+@media (max-width:480px){
+  .leftSide{
+    float: left;
+    width: auto;
+    margin: 5px 5px 5px 5px;
+    padding-top: 15px;
+
+    text-align: justify;
+  }
+}
+
+.leftSide{
+  float: left;
+  width: auto;
+  margin: 5px 5px 5px 5px;
+  text-align: justify;
+}
+
+@media (max-width:480px){
+  .rightSide{
+    /*border: 1px solid green;*/
+    margin: 5px 5px 5px 5px;
+    margin-left: auto;
+    /*align-items:stretch;*/
+  }
+}
+
+.rightSide{
+  /*border: 1px solid green;*/
+  margin: 5px 5px 5px 5px;
+  margin-left: auto;
+  align-items:stretch;
+}
+
+@media (max-width:800px){
+  .rightSideMFriendly{
+    display: none;
+  }
+}
+
+.rightSideMFriendly{
+  /*border: 1px solid green;*/
+  margin: 5px 5px 5px 5px;
+  margin-left: auto;
+  align-items:stretch;
+}
+
+.footer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*Picture Links*/
+@media (max-width:480px){
+  img.campEdenLogo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+img.campEdenLogo{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.picCenter{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.picRightSide{
+  display:block;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+img.picLeftSide{
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  border-color: #d0d0d0;
+  border-style: solid;
+  border-width: medium;
+}
+
+.picLink a{
+  text-align:left;
+}
+
+.picLink img {
+  border-style:outset;
+  border-color: #BDFFBD;
+  border-width:thin;
+  padding: 5px;
+  /*margin: 50px; */
+}
+/* Change the color of links on hover */
+.picLink img:hover {
+  border-style:outset;
+  border-color: #50C050;
+  border-width:thin;
+  /*padding: 30px;
+  margin: 50px; */
+}
+
+.picLink img:active {
+  border-style:dotted;
+  border-color: #50C050;
+  border-width:thin;
+}
